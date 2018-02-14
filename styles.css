@@ -1,0 +1,106 @@
+body, h1 {
+    font-family: helvetica neue, helvetica, arial, sans-serif;
+    font-size: 24px;
+    font-weight: normal;
+    margin: 0px;
+}
+
+h1 {
+    text-indent: 0px;
+}
+
+a {
+    color:black;
+    text-decoration: none;
+}
+
+a:hover { 
+    font-style: italic;
+}
+
+a:active {
+}
+
+a:visited {
+}
+
+p {
+    text-indent: 35px;
+    margin-bottom: 0px;
+}
+
+#star {
+    padding-top: 0px;
+    margin-top: 0px;
+}
+
+ul {
+    color:aqua;
+    list-style: none;
+    text-indent: 35px;
+    margin-bottom:0px;
+    padding: 0px;
+}
+
+li {
+    text-indent:0px;
+}
+
+.main {
+    height: 98%;
+    display: flex;
+    flex-flow: column;
+    flex-wrap: initial;
+    justify-content: space-around;
+    margin: 10px;
+    position: fixed;
+    top: 0px;
+}
+
+#aqua {
+    color:aqua;
+}
+
+#small {
+    padding: 0px 1px 0px 1px;
+    font-size: 14px;
+    letter-spacing:normal;
+}
+
+#header {
+    padding-top: 0px;
+    margin-top: 0px;
+    display: block;
+    text-indent: 35px;
+}
+
+#bio {
+    display: block;
+}
+
+#press {
+    display: block;
+}
+
+#contact {
+    display: block;
+}
+
+img {
+}
+
+@media all and (min-width:800px) {
+    body {
+        font-size: 30px;
+    }
+    
+    .main {
+        position: fixed;
+        right: 15px;
+        width: 400px;
+    }
+    
+    #small {
+        font-size:18px;
+    }
+}
